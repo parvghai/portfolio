@@ -2,6 +2,7 @@ const input = document.getElementById("terminal-input");
 const output = document.getElementById("output");
 
 const commands = {
+    "hi": "hi i am a terminal based website created via parv, this website is to show you his achivements and academics. type help for more....",
     "parv": "Hi, I'm Parv Ghai — Cloud Engineer with 1 year of experience in cloud infrastructure and operations, backed by a total of 4 years of work experience. Skilled in designing, deploying, and managing scalable cloud solutions with a strong foundation in system design, microservices architecture, and distributed systems best practices. Proficient in Java, Python, and microservices frameworks such as Spring Boot and Dropwizard. Experienced in containerization and orchestration technologies like Kubernetes and Docker, ensuring efficient deployment and management of applications.",
     "projects": "Opening GitHub... https://github.com/parvghai",
     "project": "Opening GitHub... https://github.com/parvghai",
