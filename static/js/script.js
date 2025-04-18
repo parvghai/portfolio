@@ -12,6 +12,14 @@ const commands = {
     "help": "Available commands:\nparv\nprojects\ncontact\nresume\nclear"
 };
 
+setTimeout(() => {
+  const header = document.getElementById("floating-header");
+  if (header) {
+    header.classList.add("fade-out");
+    setTimeout(() => header.remove(), 1200); // remove after fade-out finishes
+  }
+}, 5000);
+
 
 function typeOutput(text, callback) {
     let index = 0;
